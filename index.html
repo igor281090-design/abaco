@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071c27">
+  <title>Esclerometria · ContLAB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="abacus.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="logo" href="#"><b>C</b><span>Cont<strong>LAB</strong></span></a>
+      <nav><p>Laboratório</p><a>▦ Visão geral</a><a class="active">⌁ Esclerometria</a><a>◫ Compressão axial</a><a>◌ Granulometria</a><p>Gestão</p><a>▤ Relatórios</a><a>⚙ Configurações</a></nav>
+      <div class="user"><i>IL</i><span><b>Laboratório</b><small>Ambiente local</small></span></div>
+    </aside>
+    <div class="maincol">
+      <header class="topbar"><button id="menu">☰</button><div><span>Ensaios</span> / <b>Esclerometria</b></div><small>● &nbsp; Salvo localmente</small></header>
+      <main id="app"></main>
+    </div>
+  </div>
+  <button id="abacusButton" class="abacus-fab" title="Abrir ábaco visual">⌁ <span>Ábaco visual</span></button>
+  <div id="modal"></div><div id="toast"></div><script src="app.js"></script><script src="abacus.js"></script><script src="report-print-fix.js"></script>
+</body></html>
